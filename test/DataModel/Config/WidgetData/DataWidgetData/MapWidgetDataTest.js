@@ -215,11 +215,11 @@ describe('Class WidgetConfigTest: Basic tests: ', () => {
                 type: TYPE_INTEGER
             },
             mapURL: {
-                data: 'https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmV4dXJ5IiwiYSI6ImNpd3R2ZzY5djAwbzcydXFyazRsam80cDAifQ.TaIW3pR4RS3UuyZg61HV6g',
+                data: 'https://{s}.tile.iosb.fraunhofer.de/tiles/osmde/{z}/{x}/{y}.png',
                 type: TYPE_STRING
             },
             attribution: {
-                data: "Map data &copy; <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors, <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a>, Imagery © <a href='http://mapbox.com'>Mapbox</a>",
+                data: "Map data &copy; <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors, <a href='http://creativecommons.org/licenses/by-sa/2.0/'>CC-BY-SA</a>",
                 type: TYPE_STRING
             },
             latitude: {
